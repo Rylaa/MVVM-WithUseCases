@@ -1,0 +1,472 @@
+{
+"feed": {
+"title": "Top Films",
+"id": "https://rss.itunes.apple.com/api/v1/us/movies/top-movies/all/25/explicit.json",
+"author": {
+"name": "iTunes Store",
+"uri": "http://wwww.apple.com/us/itunes/"
+},
+"links": [
+{
+"self": "https://rss.itunes.apple.com/api/v1/us/movies/top-movies/all/25/explicit.json"
+},
+{
+"alternate": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=33&popId=15"
+}
+],
+"copyright": "Copyright © 2018 Apple Inc. All rights reserved.",
+"country": "us",
+"icon": "http://itunes.apple.com/favicon.ico",
+"updated": "2021-09-15T01:30:12.000-07:00",
+"results": [
+{
+"artistName": "Cate Shortland",
+"id": "1576371183",
+"releaseDate": "2021-07-09",
+"name": "Black Widow (2021)",
+"kind": "movie",
+"copyright": "© 2020 Marvel",
+"artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Video125/v4/4f/9e/ac/4f9eacd4-efc0-38a1-b77a-fe3e59115393/DIS_BLACK_WIDOW_WW_ARTWORK_EN_2000x3000_2UGOQY00000585-R1.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/black-widow-2021/id1576371183"
+},
+{
+"artistName": "Justin Lin",
+"id": "1576781847",
+"releaseDate": "2021-06-25",
+"name": "F9: The Fast Saga",
+"kind": "movie",
+"copyright": "© 2020 Universal Studios. All Rights Reserved.",
+"artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Video115/v4/55/9d/e1/559de1bb-f5f4-e789-5b01-1d9e926df5f9/Fast9_PVOD_LSR_2000x3000.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/f9-the-fast-saga/id1576781847"
+},
+{
+"artistName": "Michael Bay",
+"id": "187699525",
+"releaseDate": "2002-09-20",
+"name": "The Rock",
+"kind": "movie",
+"copyright": "© 2002 Touchstone",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music/25/c1/9c/dj.vtytfwlc.jpg/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/the-rock/id187699525"
+},
+{
+"artistName": "George P. Cosmatos",
+"id": "188703703",
+"releaseDate": "1993-12-24",
+"name": "Tombstone",
+"kind": "movie",
+"copyright": "© 1993 Hollywood Pictures",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music/87/da/a8/mzi.yrhmdqbo.jpg/200x200bb.png",
+"genres": [
+{
+"genreId": "4418",
+"name": "Western",
+"url": "https://itunes.apple.com/us/genre/id4418"
+}
+],
+"url": "https://itunes.apple.com/us/movie/tombstone/id188703703"
+},
+{
+"artistName": "Kevin Reynolds",
+"id": "310138094",
+"releaseDate": "2002-01-25",
+"name": "The Count of Monte Cristo",
+"kind": "movie",
+"copyright": "© 2002 Buena Vista and Spyglass Entertainment Group LLC",
+"artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Video/14/b4/4a/mzi.bwcrbtro.jpg/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/the-count-of-monte-cristo/id310138094"
+},
+{
+"artistName": "Patrick Hughes",
+"id": "1570744430",
+"releaseDate": "2021-06-16",
+"name": "The Hitman's Wife's Bodyguard",
+"kind": "movie",
+"copyright": "© 2021 Lions Gate Ent. Inc. All Rights Reserved.",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Video125/v4/17/c8/36/17c83678-b6bb-08d1-49fd-e68842fcffaa/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/the-hitmans-wifes-bodyguard/id1570744430"
+},
+{
+"artistName": "Quentin Tarantino",
+"id": "333325378",
+"releaseDate": "2009-08-21",
+"name": "Inglourious Basterds",
+"kind": "movie",
+"copyright": "© 2009 Visiona Romantica, Inc. All Rights Reserved.",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/20/5c/6a/205c6a89-13c2-611e-2e20-4feec0023020/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/inglourious-basterds/id333325378"
+},
+{
+"artistName": "Warner Bros. Entertainment Inc.",
+"id": "585557627",
+"releaseDate": "2018-10-31",
+"name": "The Matrix Trilogy",
+"kind": "movieBundle",
+"artistId": "199257486",
+"contentAdvisoryRating": "Explicit",
+"artistUrl": "https://itunes.apple.com/us/artist/warner-bros-entertainment-inc/199257486",
+"artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d6/02/1a/d6021a86-74b1-247d-be87-1e697b4889b1/MatrixTrilogy4K_V_DD_KA_TT_2000x3000_300dpi_EN.jpg/200x200bb.png",
+"genres": [
+{
+"genreId": "4413",
+"name": "Sci-Fi & Fantasy",
+"url": "https://itunes.apple.com/us/genre/id4413"
+},
+{
+"genreId": "33",
+"name": "Movies",
+"url": "https://itunes.apple.com/us/genre/id33"
+},
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie-collection/the-matrix-trilogy/id585557627"
+},
+{
+"artistName": "Everardo Valerio Gout",
+"id": "1576045229",
+"releaseDate": "2021-07-02",
+"name": "The Forever Purge",
+"kind": "movie",
+"copyright": "© 2020 Universal Studios. All Rights Reserved.",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video125/v4/42/d0/3a/42d03ada-25ba-3ff5-e2d9-854078f6443a/UNI_FOREVER_PURGE_DOM_ITUNES_KEYART_WW_ARTWORK_EN_2000x3000_2VAE1T000000S7.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4408",
+"name": "Horror",
+"url": "https://itunes.apple.com/us/genre/id4408"
+}
+],
+"url": "https://itunes.apple.com/us/movie/the-forever-purge/id1576045229"
+},
+{
+"artistName": "Eytan Rockaway",
+"id": "1571253203",
+"releaseDate": "2021-06-25",
+"name": "Lansky",
+"kind": "movie",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Video125/v4/ef/15/25/ef152591-729b-23d0-c485-f3ca0eac6a39/pr_source.jpg/200x200bb.png",
+"genres": [
+{
+"genreId": "4416",
+"name": "Thriller",
+"url": "https://itunes.apple.com/us/genre/id4416"
+}
+],
+"url": "https://itunes.apple.com/us/movie/lansky/id1571253203"
+},
+{
+"artistName": "Guy Ritchie",
+"id": "1562376280",
+"releaseDate": "2021-05-07",
+"name": "Wrath of Man",
+"kind": "movie",
+"copyright": "© 2021 Miramax Distribution Services, LLC. All Rights Reserved.",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/82/95/0d/82950d1a-e8c9-54cd-8540-bf406235e3ec/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/wrath-of-man/id1562376280"
+},
+{
+"artistName": "Michael Chaves",
+"id": "1567320221",
+"releaseDate": "2021-08-24",
+"name": "The Conjuring: The Devil Made Me Do It",
+"kind": "movie",
+"copyright": "© 2020 Warner Bros. Entertainment Inc. All Rights Reserved.",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video115/v4/c8/cd/05/c8cd0552-2f92-60a0-d37d-8fce8c777fc3/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4416",
+"name": "Thriller",
+"url": "https://itunes.apple.com/us/genre/id4416"
+}
+],
+"url": "https://itunes.apple.com/us/movie/the-conjuring-the-devil-made-me-do-it/id1567320221"
+},
+{
+"artistName": "Steven Caple Jr.",
+"id": "1440204355",
+"releaseDate": "2018-11-21",
+"name": "Creed II",
+"kind": "movie",
+"copyright": "© 2018 Metro-Goldwyn-Mayer Pictures Inc. and Warner Bros. Entertainment Inc.",
+"artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/60/2d/41/602d41e0-a142-bbaf-d976-66bf7caa37aa/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4406",
+"name": "Drama",
+"url": "https://itunes.apple.com/us/genre/id4406"
+}
+],
+"url": "https://itunes.apple.com/us/movie/creed-ii/id1440204355"
+},
+{
+"artistName": "Dominic Sena",
+"id": "188702716",
+"releaseDate": "2000-06-09",
+"name": "Gone In 60 Seconds",
+"kind": "movie",
+"copyright": "© 2000 Touchstone Pictures and Jerry Bruckheimer, Inc., All Rights Reserved",
+"artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music/9e/b9/bd/mzi.kzjdgzzu.jpg/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/gone-in-60-seconds/id188702716"
+},
+{
+"artistName": "John Krasinski",
+"id": "1500086963",
+"releaseDate": "2020-03-20",
+"name": "A Quiet Place Part II",
+"kind": "movie",
+"copyright": "© 2020 Paramount Pictures. All Rights Reserved",
+"artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video115/v4/db/f0/b3/dbf0b39a-7327-cfca-ffdb-4774bac9286e/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4416",
+"name": "Thriller",
+"url": "https://itunes.apple.com/us/genre/id4416"
+}
+],
+"url": "https://itunes.apple.com/us/movie/a-quiet-place-part-ii/id1500086963"
+},
+{
+"artistName": "Brian De Palma",
+"id": "304604475",
+"releaseDate": "1983-12-09",
+"name": "Scarface (1983)",
+"kind": "movie",
+"copyright": "© 1983 Universal Studios. All Rights Reserved.",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Video123/v4/92/77/7f/92777fd4-b87e-a106-54f4-acab4acaed61/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4406",
+"name": "Drama",
+"url": "https://itunes.apple.com/us/genre/id4406"
+}
+],
+"url": "https://itunes.apple.com/us/movie/scarface-1983/id304604475"
+},
+{
+"artistName": "Tom McGrath",
+"id": "1573325150",
+"releaseDate": "2021-07-02",
+"name": "The Boss Baby: Family Business",
+"kind": "movie",
+"copyright": "© DreamWorks The Boss Baby 2021 DreamWorks Animation LLC. All Rights Reserved.",
+"artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Video115/v4/ad/be/9f/adbe9f46-bcc2-6748-35aa-f508b6778b06/pr_source.png/200x200bb.png",
+"genres": [
+{
+"genreId": "4410",
+"name": "Kids & Family",
+"url": "https://itunes.apple.com/us/genre/id4410"
+}
+],
+"url": "https://itunes.apple.com/us/movie/the-boss-baby-family-business/id1573325150"
+},
+{
+"artistName": "F. Gary Gray",
+"id": "211845306",
+"releaseDate": "2003-10-07",
+"name": "The Italian Job (2003)",
+"kind": "movie",
+"copyright": "™ & Copyright © 2003 by Paramount Pictures. All Rights Reserved.",
+"artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video/v4/3e/9a/3f/3e9a3fc6-255b-bb78-285c-3bb6f544bfb5/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/the-italian-job-2003/id211845306"
+},
+{
+"artistName": "Will Gluck",
+"id": "1501900930",
+"releaseDate": "2021-06-11",
+"name": "Peter Rabbit 2",
+"kind": "movie",
+"copyright": "© 2021 Columbia Pictures Industries, Inc., 2.0 Entertainment Borrower, LLC and MRC II Distribution Company L.P. All Rights Reserved.",
+"artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Video125/v4/1c/4d/f4/1c4df444-3024-9fe6-e665-40cd38e5b351/SPE_Peter_Rabbit_2_PRE_ORDER_US_ARTWORK_EN_EN-US_2000x3000_26G9TH000003C4.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/peter-rabbit-2/id1501900930"
+},
+{
+"artistName": "Amber Sealey",
+"id": "1578053336",
+"releaseDate": "2021-08-27",
+"name": "No Man of God",
+"kind": "movie",
+"copyright": "© 2021 No Man of God, LLC",
+"artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Video115/v4/4c/6a/27/4c6a27ee-788f-df36-99bd-957e125cbd40/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4416",
+"name": "Thriller",
+"url": "https://itunes.apple.com/us/genre/id4416"
+}
+],
+"url": "https://itunes.apple.com/us/movie/no-man-of-god/id1578053336"
+},
+{
+"artistName": "Jaume Collet-Serra",
+"id": "1579524747",
+"releaseDate": "2021-07-30",
+"name": "Jungle Cruise",
+"kind": "movie",
+"copyright": "© 2021 Disney",
+"artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Video115/v4/30/ea/9e/30ea9e39-d612-d8a5-1160-b9c8177405a4/DIS_JUNGLE_WW_ARTWORK_EN_2000x3000_2VYBQU000003LA.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/jungle-cruise/id1579524747"
+},
+{
+"artistName": "Rodo Sayagues",
+"id": "1579953812",
+"releaseDate": "2021-08-13",
+"name": "Don't Breathe 2",
+"kind": "movie",
+"copyright": "© 2021 DB2 Productions, LLC. All Rights Reserved.",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video125/v4/a5/c3/0d/a5c30d39-841f-4ba9-4dd8-cc2305a43344/SPE_DONT_BREATHE_2_FINAL_WW_ARTWORK_EN_EN-US_EN-GB_EN-AU_2000x3000_2WSCGF0000027A.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4416",
+"name": "Thriller",
+"url": "https://itunes.apple.com/us/genre/id4416"
+}
+],
+"url": "https://itunes.apple.com/us/movie/dont-breathe-2/id1579953812"
+},
+{
+"artistName": "Reinaldo Marcus Green",
+"id": "1577126036",
+"releaseDate": "2021-07-23",
+"name": "Joe Bell",
+"kind": "movie",
+"copyright": "© 2020 Good Joe Bell Holdings LLC",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video125/v4/4e/9d/2d/4e9d2d18-c1ef-4b58-07a4-5fb2885f85cb/pr_source.jpg/200x200bb.png",
+"genres": [
+{
+"genreId": "4406",
+"name": "Drama",
+"url": "https://itunes.apple.com/us/genre/id4406"
+}
+],
+"url": "https://itunes.apple.com/us/movie/joe-bell/id1577126036"
+},
+{
+"artistName": "Doug Liman",
+"id": "1282787960",
+"releaseDate": "2017-09-29",
+"name": "American Made",
+"kind": "movie",
+"copyright": "© 2017 Universal Studios. All Rights Reserved.",
+"contentAdvisoryRating": "Explicit",
+"artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Video118/v4/1f/1a/59/1f1a594f-a832-d483-3b0f-0aa8d5a84e6e/contsched.lstormdr.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4406",
+"name": "Drama",
+"url": "https://itunes.apple.com/us/genre/id4406"
+}
+],
+"url": "https://itunes.apple.com/us/movie/american-made/id1282787960"
+},
+{
+"artistName": "Robert Schwentke",
+"id": "1575700279",
+"releaseDate": "2021-07-23",
+"name": "Snake Eyes: G.I. Joe Origins",
+"kind": "movie",
+"copyright": "2021 Paramount Pictures. Hasbro, G.I. Joe and all related characters are trademarks of Hasbro. © 2021 Hasbro. All Rights Reserved.",
+"artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video115/v4/cc/e5/bd/cce5bd9d-7a37-c77c-ba35-d656a71eaadd/pr_source.lsr/200x200bb.png",
+"genres": [
+{
+"genreId": "4401",
+"name": "Action & Adventure",
+"url": "https://itunes.apple.com/us/genre/id4401"
+}
+],
+"url": "https://itunes.apple.com/us/movie/snake-eyes-g-i-joe-origins/id1575700279"
+}
+]
+}
+}
