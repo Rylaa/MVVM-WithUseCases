@@ -15,8 +15,8 @@ final class MovieUseCases: MovieUseCasesProtocol {
     init(service: MovieServiceProtocol) {
         self.service = service
     }
-        
-    func fetchMoview() {
+    
+    func fetchMoview(completion: @escaping () -> Void) {
         service.getTopMovieList { [weak self] (result: Result<MovieResponse>, _) in
             switch result {
             case .failure(let error):
@@ -24,7 +24,7 @@ final class MovieUseCases: MovieUseCasesProtocol {
                 
             case .success(let response):
                 self?.response = response
-                
+                completion()
             }
         }
     }

@@ -1,5 +1,5 @@
 //
-//  MovieDTO.swift
+//  MovieModel.swift
 //  MVVM-UseCases
 //
 //  Created by yusuf demirkoparan on 17.09.2021.

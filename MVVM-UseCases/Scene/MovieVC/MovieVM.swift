@@ -20,7 +20,9 @@ final class MovieVM: MovieVMProtocol {
     }
     
     func fetchMovies() {
-        useCases.fetchMoview()
+        useCases.fetchMoview { [weak self] in
+            self?.notifyToOutputsVC(output: .MoviewData((self?.useCases.getMovieResponse())!))
+        }
     }
     
     private func notifyToOutputsVC(output: MovieVMOutputs) {
@@ -34,8 +36,5 @@ final class MovieVM: MovieVMProtocol {
     func getFirstArtistName() {
         notifyToOutputsVC(output: .GiveFirstArtistName(useCases.getFirstArtistName()))
     }
-    
-    func getMovieResponse() {
-        notifyToOutputsVC(output: .MoviewData(useCases.getMovieResponse()!))
-    }
+ 
 }

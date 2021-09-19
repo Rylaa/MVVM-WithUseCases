@@ -14,7 +14,7 @@
 		534AB7B826F48FFF00F43A56 /* MovieVMContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AB7B726F48FFF00F43A56 /* MovieVMContracts.swift */; };
 		534AB7BA26F491C200F43A56 /* topMovies.json in Resources */ = {isa = PBXBuildFile; fileRef = 534AB7B926F491C200F43A56 /* topMovies.json */; };
 		534AB7BC26F4924800F43A56 /* MovieUseCasesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AB7BB26F4924800F43A56 /* MovieUseCasesProtocol.swift */; };
-		534AB7BE26F4943F00F43A56 /* MovieDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AB7BD26F4943F00F43A56 /* MovieDTO.swift */; };
+		534AB7BE26F4943F00F43A56 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AB7BD26F4943F00F43A56 /* MovieModel.swift */; };
 		534AB7C026F4B40000F43A56 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AB7BF26F4B40000F43A56 /* MovieServiceProtocol.swift */; };
 		534AB7C426F4C1C400F43A56 /* StoryboardInstantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AB7C326F4C1C400F43A56 /* StoryboardInstantiate.swift */; };
 		53AEBADC26F36469004BDD64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBADB26F36469004BDD64 /* AppDelegate.swift */; };
@@ -31,9 +31,6 @@
 		53AEBB3026F3675A004BDD64 /* NetworkResponseCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB2F26F3675A004BDD64 /* NetworkResponseCreator.swift */; };
 		53AEBB3526F36775004BDD64 /* NetworkResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB3426F36775004BDD64 /* NetworkResourceLoader.swift */; };
 		53AEBB3A26F3678F004BDD64 /* NetworkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB3926F3678F004BDD64 /* NetworkExtensions.swift */; };
-		53AEBB4026F367BF004BDD64 /* ItunesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB3F26F367BF004BDD64 /* ItunesService.swift */; };
-		53AEBB4826F367CC004BDD64 /* ItunesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB4726F367CC004BDD64 /* ItunesDTO.swift */; };
-		53AEBB4D26F367E1004BDD64 /* ItunesMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB4C26F367E1004BDD64 /* ItunesMockService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +58,7 @@
 		534AB7B726F48FFF00F43A56 /* MovieVMContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVMContracts.swift; sourceTree = "<group>"; };
 		534AB7B926F491C200F43A56 /* topMovies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = topMovies.json; sourceTree = "<group>"; };
 		534AB7BB26F4924800F43A56 /* MovieUseCasesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieUseCasesProtocol.swift; sourceTree = "<group>"; };
-		534AB7BD26F4943F00F43A56 /* MovieDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDTO.swift; sourceTree = "<group>"; };
+		534AB7BD26F4943F00F43A56 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		534AB7BF26F4B40000F43A56 /* MovieServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceProtocol.swift; sourceTree = "<group>"; };
 		534AB7C326F4C1C400F43A56 /* StoryboardInstantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiate.swift; sourceTree = "<group>"; };
 		53AEBAD826F36469004BDD64 /* MVVM-UseCases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-UseCases.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,9 +81,6 @@
 		53AEBB2F26F3675A004BDD64 /* NetworkResponseCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseCreator.swift; sourceTree = "<group>"; };
 		53AEBB3426F36775004BDD64 /* NetworkResourceLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResourceLoader.swift; sourceTree = "<group>"; };
 		53AEBB3926F3678F004BDD64 /* NetworkExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtensions.swift; sourceTree = "<group>"; };
-		53AEBB3F26F367BF004BDD64 /* ItunesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesService.swift; sourceTree = "<group>"; };
-		53AEBB4726F367CC004BDD64 /* ItunesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesDTO.swift; sourceTree = "<group>"; };
-		53AEBB4C26F367E1004BDD64 /* ItunesMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMockService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,11 +123,11 @@
 				534AB7B126F48FE300F43A56 /* MovieVM.swift */,
 				534AB7B726F48FFF00F43A56 /* MovieVMContracts.swift */,
 				534AB7B326F48FEB00F43A56 /* MovieUseCases.swift */,
-				534AB7BF26F4B40000F43A56 /* MovieServiceProtocol.swift */,
 				534AB7BB26F4924800F43A56 /* MovieUseCasesProtocol.swift */,
+				534AB7BF26F4B40000F43A56 /* MovieServiceProtocol.swift */,
 				534AB7B526F48FF100F43A56 /* MovieService.swift */,
 				534AB7B926F491C200F43A56 /* topMovies.json */,
-				534AB7BD26F4943F00F43A56 /* MovieDTO.swift */,
+				534AB7BD26F4943F00F43A56 /* MovieModel.swift */,
 			);
 			path = MovieVC;
 			sourceTree = "<group>";
@@ -171,7 +165,6 @@
 			children = (
 				534AB7C226F4C19A00F43A56 /* App */,
 				534AB7AD26F48FCF00F43A56 /* Scene */,
-				53AEBB3E26F367B1004BDD64 /* ItunesScreen */,
 				53AEBB0E26F3652B004BDD64 /* Network */,
 				53AEBADB26F36469004BDD64 /* AppDelegate.swift */,
 				53AEBAE126F36469004BDD64 /* Main.storyboard */,
@@ -213,16 +206,6 @@
 				53AEBB3926F3678F004BDD64 /* NetworkExtensions.swift */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		53AEBB3E26F367B1004BDD64 /* ItunesScreen */ = {
-			isa = PBXGroup;
-			children = (
-				53AEBB3F26F367BF004BDD64 /* ItunesService.swift */,
-				53AEBB4726F367CC004BDD64 /* ItunesDTO.swift */,
-				53AEBB4C26F367E1004BDD64 /* ItunesMockService.swift */,
-			);
-			path = ItunesScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,24 +339,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53AEBB4D26F367E1004BDD64 /* ItunesMockService.swift in Sources */,
 				534AB7B426F48FEB00F43A56 /* MovieUseCases.swift in Sources */,
 				534AB7BC26F4924800F43A56 /* MovieUseCasesProtocol.swift in Sources */,
 				53AEBB3A26F3678F004BDD64 /* NetworkExtensions.swift in Sources */,
 				534AB7B226F48FE300F43A56 /* MovieVM.swift in Sources */,
 				53AEBADC26F36469004BDD64 /* AppDelegate.swift in Sources */,
-				53AEBB4026F367BF004BDD64 /* ItunesService.swift in Sources */,
 				53AEBB1E26F366BF004BDD64 /* NetworkProtocol.swift in Sources */,
 				534AB7B626F48FF100F43A56 /* MovieService.swift in Sources */,
 				534AB7C426F4C1C400F43A56 /* StoryboardInstantiate.swift in Sources */,
 				53AEBB2826F36732004BDD64 /* NetworkRequestCreator.swift in Sources */,
 				53AEBB1926F3668E004BDD64 /* NetworkConstants.swift in Sources */,
 				53AEBB3526F36775004BDD64 /* NetworkResourceLoader.swift in Sources */,
-				53AEBB4826F367CC004BDD64 /* ItunesDTO.swift in Sources */,
 				534AB7C026F4B40000F43A56 /* MovieServiceProtocol.swift in Sources */,
 				53AEBB1126F36561004BDD64 /* NetworkEnums.swift in Sources */,
 				53AEBB2326F366FF004BDD64 /* NetworkService.swift in Sources */,
-				534AB7BE26F4943F00F43A56 /* MovieDTO.swift in Sources */,
+				534AB7BE26F4943F00F43A56 /* MovieModel.swift in Sources */,
 				534AB7B026F48FDE00F43A56 /* MovieVC.swift in Sources */,
 				53AEBB3026F3675A004BDD64 /* NetworkResponseCreator.swift in Sources */,
 				534AB7B826F48FFF00F43A56 /* MovieVMContracts.swift in Sources */,

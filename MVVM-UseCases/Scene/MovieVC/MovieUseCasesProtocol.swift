@@ -11,6 +11,6 @@ protocol MovieUseCasesProtocol: AnyObject {
     func getTenArtist() -> [ArtistResult]
     func getFirstArtistName() -> String
     func getMovieResponse() -> MovieResponse?
-    func fetchMoview()
+    func fetchMoview(completion: @escaping () -> Void)
 }
 
