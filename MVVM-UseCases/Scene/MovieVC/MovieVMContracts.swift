@@ -9,13 +9,13 @@ import Foundation
 
 
 protocol MovieVMProtocol: AnyObject {
-    var delegate: MovieVMDelegate? { get set }
+    var delegate: MovieVMDelegateProtocol? { get set }
     func getTenArtist()
     func getFirstArtistName()
     func fetchMovies()
 }
 
-protocol MovieVMDelegate: AnyObject {
+protocol MovieVMDelegateProtocol: AnyObject {
     func viewModelOutputs(with output: MovieVMOutputs)
 }
 

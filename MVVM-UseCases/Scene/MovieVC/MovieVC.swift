@@ -29,7 +29,7 @@ class MovieVC: UIViewController {
     }
 }
 
-extension MovieVC: MovieVMDelegate {
+extension MovieVC: MovieVMDelegateProtocol {
     func viewModelOutputs(with output: MovieVMOutputs) {
         switch output {
         case .GiveFirstArtistName(let name):

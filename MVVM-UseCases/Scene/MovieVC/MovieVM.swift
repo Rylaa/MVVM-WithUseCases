@@ -10,7 +10,7 @@ import Foundation
 
 final class MovieVM: MovieVMProtocol {
    
-    weak var delegate: MovieVMDelegate?
+    weak var delegate: MovieVMDelegateProtocol?
     let useCases: MovieUseCasesProtocol!
     let service: MovieServiceProtocol!
     

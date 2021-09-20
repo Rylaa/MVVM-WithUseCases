@@ -21,8 +21,7 @@
 		53AEBAE326F36469004BDD64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AEBAE126F36469004BDD64 /* Main.storyboard */; };
 		53AEBAE526F3646C004BDD64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AEBAE426F3646C004BDD64 /* Assets.xcassets */; };
 		53AEBAE826F3646C004BDD64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AEBAE626F3646C004BDD64 /* LaunchScreen.storyboard */; };
-		53AEBAF326F3646C004BDD64 /* MVVM_UseCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBAF226F3646C004BDD64 /* MVVM_UseCasesTests.swift */; };
-		53AEBAFE26F3646C004BDD64 /* MVVM_UseCasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBAFD26F3646C004BDD64 /* MVVM_UseCasesUITests.swift */; };
+		53AEBAF326F3646C004BDD64 /* MovieIntegrationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBAF226F3646C004BDD64 /* MovieIntegrationTest.swift */; };
 		53AEBB1126F36561004BDD64 /* NetworkEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB1026F36561004BDD64 /* NetworkEnums.swift */; };
 		53AEBB1926F3668E004BDD64 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB1826F3668E004BDD64 /* NetworkConstants.swift */; };
 		53AEBB1E26F366BF004BDD64 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB1D26F366BF004BDD64 /* NetworkProtocol.swift */; };
@@ -31,6 +30,10 @@
 		53AEBB3026F3675A004BDD64 /* NetworkResponseCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB2F26F3675A004BDD64 /* NetworkResponseCreator.swift */; };
 		53AEBB3526F36775004BDD64 /* NetworkResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB3426F36775004BDD64 /* NetworkResourceLoader.swift */; };
 		53AEBB3A26F3678F004BDD64 /* NetworkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBB3926F3678F004BDD64 /* NetworkExtensions.swift */; };
+		53D3B4B526F7A81300728A84 /* MovieUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3B4B426F7A81300728A84 /* MovieUnitTests.swift */; };
+		53D3B4B926F7A8F100728A84 /* MovieMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3B4B826F7A8F100728A84 /* MovieMockService.swift */; };
+		53D3B4BB26F7A90C00728A84 /* MoviewServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3B4BA26F7A90C00728A84 /* MoviewServiceRequest.swift */; };
+		53D6D6FF26F8A0BC00C22116 /* MovieVMUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D6D6FE26F8A0BC00C22116 /* MovieVMUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,11 +71,9 @@
 		53AEBAE726F3646C004BDD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53AEBAE926F3646C004BDD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53AEBAEE26F3646C004BDD64 /* MVVM-UseCasesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-UseCasesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53AEBAF226F3646C004BDD64 /* MVVM_UseCasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_UseCasesTests.swift; sourceTree = "<group>"; };
+		53AEBAF226F3646C004BDD64 /* MovieIntegrationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieIntegrationTest.swift; sourceTree = "<group>"; };
 		53AEBAF426F3646C004BDD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53AEBAF926F3646C004BDD64 /* MVVM-UseCasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-UseCasesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53AEBAFD26F3646C004BDD64 /* MVVM_UseCasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_UseCasesUITests.swift; sourceTree = "<group>"; };
-		53AEBAFF26F3646C004BDD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53AEBB1026F36561004BDD64 /* NetworkEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnums.swift; sourceTree = "<group>"; };
 		53AEBB1826F3668E004BDD64 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		53AEBB1D26F366BF004BDD64 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
@@ -81,6 +82,10 @@
 		53AEBB2F26F3675A004BDD64 /* NetworkResponseCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseCreator.swift; sourceTree = "<group>"; };
 		53AEBB3426F36775004BDD64 /* NetworkResourceLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResourceLoader.swift; sourceTree = "<group>"; };
 		53AEBB3926F3678F004BDD64 /* NetworkExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExtensions.swift; sourceTree = "<group>"; };
+		53D3B4B426F7A81300728A84 /* MovieUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieUnitTests.swift; sourceTree = "<group>"; };
+		53D3B4B826F7A8F100728A84 /* MovieMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMockService.swift; sourceTree = "<group>"; };
+		53D3B4BA26F7A90C00728A84 /* MoviewServiceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewServiceRequest.swift; sourceTree = "<group>"; };
+		53D6D6FE26F8A0BC00C22116 /* MovieVMUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVMUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,15 +124,11 @@
 		534AB7AE26F48FD400F43A56 /* MovieVC */ = {
 			isa = PBXGroup;
 			children = (
+				53D3B4B726F7A8B900728A84 /* UseCases */,
+				53D3B4B626F7A8A600728A84 /* Service */,
 				534AB7AF26F48FDE00F43A56 /* MovieVC.swift */,
 				534AB7B126F48FE300F43A56 /* MovieVM.swift */,
 				534AB7B726F48FFF00F43A56 /* MovieVMContracts.swift */,
-				534AB7B326F48FEB00F43A56 /* MovieUseCases.swift */,
-				534AB7BB26F4924800F43A56 /* MovieUseCasesProtocol.swift */,
-				534AB7BF26F4B40000F43A56 /* MovieServiceProtocol.swift */,
-				534AB7B526F48FF100F43A56 /* MovieService.swift */,
-				534AB7B926F491C200F43A56 /* topMovies.json */,
-				534AB7BD26F4943F00F43A56 /* MovieModel.swift */,
 			);
 			path = MovieVC;
 			sourceTree = "<group>";
@@ -145,7 +146,6 @@
 			children = (
 				53AEBADA26F36469004BDD64 /* MVVM-UseCases */,
 				53AEBAF126F3646C004BDD64 /* MVVM-UseCasesTests */,
-				53AEBAFC26F3646C004BDD64 /* MVVM-UseCasesUITests */,
 				53AEBAD926F36469004BDD64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,19 +178,12 @@
 		53AEBAF126F3646C004BDD64 /* MVVM-UseCasesTests */ = {
 			isa = PBXGroup;
 			children = (
-				53AEBAF226F3646C004BDD64 /* MVVM_UseCasesTests.swift */,
+				53AEBAF226F3646C004BDD64 /* MovieIntegrationTest.swift */,
 				53AEBAF426F3646C004BDD64 /* Info.plist */,
+				53D3B4B426F7A81300728A84 /* MovieUnitTests.swift */,
+				53D6D6FE26F8A0BC00C22116 /* MovieVMUnitTests.swift */,
 			);
 			path = "MVVM-UseCasesTests";
-			sourceTree = "<group>";
-		};
-		53AEBAFC26F3646C004BDD64 /* MVVM-UseCasesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				53AEBAFD26F3646C004BDD64 /* MVVM_UseCasesUITests.swift */,
-				53AEBAFF26F3646C004BDD64 /* Info.plist */,
-			);
-			path = "MVVM-UseCasesUITests";
 			sourceTree = "<group>";
 		};
 		53AEBB0E26F3652B004BDD64 /* Network */ = {
@@ -206,6 +199,28 @@
 				53AEBB3926F3678F004BDD64 /* NetworkExtensions.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		53D3B4B626F7A8A600728A84 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				534AB7B926F491C200F43A56 /* topMovies.json */,
+				534AB7BD26F4943F00F43A56 /* MovieModel.swift */,
+				534AB7BF26F4B40000F43A56 /* MovieServiceProtocol.swift */,
+				534AB7B526F48FF100F43A56 /* MovieService.swift */,
+				53D3B4B826F7A8F100728A84 /* MovieMockService.swift */,
+				53D3B4BA26F7A90C00728A84 /* MoviewServiceRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		53D3B4B726F7A8B900728A84 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				534AB7B326F48FEB00F43A56 /* MovieUseCases.swift */,
+				534AB7BB26F4924800F43A56 /* MovieUseCasesProtocol.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,10 +356,12 @@
 			files = (
 				534AB7B426F48FEB00F43A56 /* MovieUseCases.swift in Sources */,
 				534AB7BC26F4924800F43A56 /* MovieUseCasesProtocol.swift in Sources */,
+				53D3B4BB26F7A90C00728A84 /* MoviewServiceRequest.swift in Sources */,
 				53AEBB3A26F3678F004BDD64 /* NetworkExtensions.swift in Sources */,
 				534AB7B226F48FE300F43A56 /* MovieVM.swift in Sources */,
 				53AEBADC26F36469004BDD64 /* AppDelegate.swift in Sources */,
 				53AEBB1E26F366BF004BDD64 /* NetworkProtocol.swift in Sources */,
+				53D3B4B926F7A8F100728A84 /* MovieMockService.swift in Sources */,
 				534AB7B626F48FF100F43A56 /* MovieService.swift in Sources */,
 				534AB7C426F4C1C400F43A56 /* StoryboardInstantiate.swift in Sources */,
 				53AEBB2826F36732004BDD64 /* NetworkRequestCreator.swift in Sources */,
@@ -364,7 +381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53AEBAF326F3646C004BDD64 /* MVVM_UseCasesTests.swift in Sources */,
+				53D3B4B526F7A81300728A84 /* MovieUnitTests.swift in Sources */,
+				53AEBAF326F3646C004BDD64 /* MovieIntegrationTest.swift in Sources */,
+				53D6D6FF26F8A0BC00C22116 /* MovieVMUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +391,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53AEBAFE26F3646C004BDD64 /* MVVM_UseCasesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

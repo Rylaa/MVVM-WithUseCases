@@ -9,18 +9,17 @@ import Foundation
 
 final class ResourceLoader {
     
-    enum LoadItunesItems: String {
-        case album
+    enum loadResources: String {
+        case topMovies
        
     }
     
-//    static func loadAlbum(resource: LoadItunesItems) throws -> ItunesResponseModel {
-//        let bundle = Bundle.test
-//        let url = try bundle.url(forResource: resource.rawValue, withExtension: "json").unwrap()
-//        let data = try Data(contentsOf: url)
-//        let decoder = Decoders.plainDecoder
-//        let album = try decoder.decode(ItunesResponseModel.self, from: data)
-//        return album
-//    }
+    static func loadAlbum(resource: loadResources) throws -> MovieResponse {
+        let bundle = Bundle.test
+        let url = try bundle.url(forResource: resource.rawValue, withExtension: "json").unwrap()
+        let data = try Data(contentsOf: url)
+        let decoder = Decoders.plainDecoder
+        let album = try decoder.decode(MovieResponse.self, from: data)
+        return album
+    }
 }
-
